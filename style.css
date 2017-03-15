@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-size: cover;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+body.Goedemorgen {
+background-image: url(morning.png);
+}
+body.Goedemiddag {
+background-image: url(afternoon.png);
+}
+body.Goedenavond {
+background-image: url(evening.png);
+}
+body.Goedenacht {
+background-image: url(night.png);
+}
